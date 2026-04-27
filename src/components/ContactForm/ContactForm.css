@@ -1,0 +1,28 @@
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  background-color: #F8F5F2;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textarea-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.textarea-group label {
+  margin-bottom: 6px;
+  color: #4F362C;
+  font-weight: bold;
+}
+
+.textarea-group textarea {
+  padding: 10px;
+  min-height: 120px;
+  border-radius: 8px;
+  border: 1px solid #CBAF8D;
+  resize: none;
+}

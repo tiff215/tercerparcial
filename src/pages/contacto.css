@@ -1,0 +1,53 @@
+/* src/pages/Contacto.css */
+.contacto-page {
+  padding: 100px 5% 120px;
+  background-color: #F8F5F2;
+  min-height: 100vh;
+}
+
+.contacto-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.info-item {
+  background-color: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(79, 54, 44, 0.08);
+  border-left: 6px solid #8B5A2B;
+}
+
+.info-item h3 {
+  color: #8B5A2B;
+  margin-bottom: 12px;
+  font-size: 1.45rem;
+}
+
+.info-item p {
+  color: #4F362C;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.social-section h3 {
+  color: #8B5A2B;
+  margin-bottom: 16px;
+}
+
+.contact-form-section {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(79, 54, 44, 0.1);
+}

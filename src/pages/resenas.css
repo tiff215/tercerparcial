@@ -1,0 +1,41 @@
+.resenas-page {
+  padding: 100px 5% 120px;
+  background-color: #F8F5F2;
+  min-height: 100vh;
+}
+
+/* GRID DE RESEÑAS */
+.reviews-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* CTA FINAL */
+.resenas-cta {
+  text-align: center;
+  margin-top: 60px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(79, 54, 44, 0.08);
+}
+
+.resenas-cta h3 {
+  color: #8B5A2B;
+  margin-bottom: 10px;
+}
+
+.resenas-cta p {
+  color: #4F362C;
+  margin-bottom: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .resenas-page {
+    padding: 70px 5% 80px;
+  }
+}
