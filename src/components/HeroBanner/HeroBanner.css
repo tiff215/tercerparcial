@@ -1,0 +1,16 @@
+.hero {
+  background-color: #CBAF8D;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero h2 {
+  font-size: 42px;
+  color: #4F362C;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #2B2B2B;
+}

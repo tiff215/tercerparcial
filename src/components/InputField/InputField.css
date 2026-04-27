@@ -1,0 +1,19 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-group label {
+  margin-bottom: 6px;
+  color: #4F362C;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #CBAF8D;
+  border-radius: 8px;
+  outline: none;
+}

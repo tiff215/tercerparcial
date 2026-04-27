@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #8B5A2B;
+  padding: 15px 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__brand {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar__list {
+  list-style: none;      
+  display: flex;          
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar__list a:visited {
+  color: white;
+}
+
+.navbar__list a:hover {
+  color: #CBAF8D;
+}
