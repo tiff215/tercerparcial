@@ -1,0 +1,26 @@
+.menu-page {
+  padding: 100px 5% 120px;
+  background-color: #F8F5F2;
+  min-height: 100vh;
+}
+
+/* SECCIONES */
+.menu-section {
+  margin-top: 50px;
+}
+
+/* TÍTULO DE CATEGORÍA */
+.menu-category {
+  color: #8B5A2B;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 5px solid #8B5A2B;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .menu-page {
+    padding: 70px 5% 80px;
+  }
+}

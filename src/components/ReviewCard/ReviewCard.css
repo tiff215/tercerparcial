@@ -1,0 +1,16 @@
+.review-card {
+  background-color: #F8F5F2;
+  border-left: 5px solid #8B5A2B;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.review-card h3 {
+  color: #4F362C;
+}
+
+.review-card p {
+  color: #2B2B2B;
+}
